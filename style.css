@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    background-color: pink;
+color:  rgb(238, 92, 116);
+font-size: 1em;
+    font-weight: bolder;
+}
+.div{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 800px;
+height: 500px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+}
+.guessField{
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 30px;
+}
+.guessSubmit{
+    padding: 5px;
+    border: 3px solid plum;
+    border-radius: 5px;
+    background-color:#fff ;
+    color: plum;
+    font-size: 1em;
+    font-weight: bolder;
+}
+.guessSubmit:hover{
+    background-color:plum ;
+    color: #fff;
+
+}
+.levels{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#btn{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid plum;
+    border-radius: 5px;
+    background-color:#fff ;
+    color: plum;
+    font-size: 1em;
+    font-weight: bolder;
+    
+}
+#btn:hover{
+    background-color:plum ;
+    color: #fff;
+}
+#btn1{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid plum;
+    border-radius: 5px;
+    background-color:#fff ;
+    color: plum;
+    font-size: 1em;
+    font-weight: bolder;
+    
+}
+#btn1:hover{
+    background-color:plum ;
+    color: #fff;
+}
+#btn2{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid plum;
+    border-radius: 5px;
+    background-color:#fff ;
+    color: plum;
+    font-size: 1em;
+    font-weight: bolder;
+    
+}
+#btn2:hover{
+    background-color:plum ;
+    color: #fff;
+}
+#msg{
+    display: none;
+}
+#form{
+    display: none;
+}
+
